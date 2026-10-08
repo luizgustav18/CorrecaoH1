@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "ProvaH1.Controllers.CadastroController",
+    "Method": "Cadastrar",
+    "RelativePath": "ApiCadastro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cadastro",
+        "Type": "ProvaH1.Models.Cadastro",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaH1.Controllers.CadastroController",
+    "Method": "Listar",
+    "RelativePath": "ApiCadastro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaH1.Controllers.JustificativaController",
+    "Method": "CadJustificativa",
+    "RelativePath": "ApiJustificativa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "justificativa",
+        "Type": "ProvaH1.Models.Justificativa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProvaH1.Controllers.JustificativaController",
+    "Method": "Listar",
+    "RelativePath": "ApiJustificativa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
